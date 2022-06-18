@@ -250,9 +250,7 @@ header .menu-content .overlay ul h3 {
 
 /* End Landing Section */
 /* Start Work Section */
-.work-sec {
-  padding-left: 15px;
-  padding-right: 15px;
+.work-sec .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
@@ -261,8 +259,6 @@ header .menu-content .overlay ul h3 {
 .work-sec .work {
   padding: var(--sectionPadding);
   text-align: center;
-  margin-right: -10px;
-  margin-left: -10px;
 }
 
 /* Add effects on .work class*/
